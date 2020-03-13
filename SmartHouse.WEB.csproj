@@ -5,8 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="SmartHouseApp\src\app\house.ts" />
+    <None Remove="SmartHouseApp\src\app\record.ts" />
+    <None Remove="SmartHouseApp\src\app\room.ts" />
+    <None Remove="SmartHouseApp\src\app\sensor.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="SmartHouseApp\src\app\house.ts" />
+    <TypeScriptCompile Include="SmartHouseApp\src\app\record.ts" />
+    <TypeScriptCompile Include="SmartHouseApp\src\app\room.ts" />
+    <TypeScriptCompile Include="SmartHouseApp\src\app\sensor.ts" />
   </ItemGroup>
 
 
