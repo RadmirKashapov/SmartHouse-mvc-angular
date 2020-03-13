@@ -9,11 +9,11 @@ using SmartHouse.WEB.Models;
 
 namespace SmartHouse.WEB.Controllers
 {
-    public class HomeController : Controller
+    public class SmartHouseController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<SmartHouseController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public SmartHouseController(ILogger<SmartHouseController> logger)
         {
             _logger = logger;
         }
