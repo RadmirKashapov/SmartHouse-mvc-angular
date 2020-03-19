@@ -10,6 +10,7 @@
     <None Remove="SmartHouseApp\src\app\record.ts" />
     <None Remove="SmartHouseApp\src\app\room.ts" />
     <None Remove="SmartHouseApp\src\app\sensor.ts" />
+    <None Remove="SmartHouseApp\src\app\user.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +25,7 @@
     <TypeScriptCompile Include="SmartHouseApp\src\app\record.ts" />
     <TypeScriptCompile Include="SmartHouseApp\src\app\room.ts" />
     <TypeScriptCompile Include="SmartHouseApp\src\app\sensor.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <TypeScriptCompile Include="SmartHouseApp\src\app\user.ts" />
   </ItemGroup>
 
 

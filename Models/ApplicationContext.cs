@@ -8,7 +8,7 @@ namespace SmartHouse.WEB.Models
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Sensor> Sensors { get; set; }
         public DbSet<Record> Records { get; set; }
-
+        public DbSet<User> Users { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options): base(options)
         {
             Database.EnsureCreated();
